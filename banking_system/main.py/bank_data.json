@@ -5,6 +5,12 @@
             "last_name": "Walker",
             "balance": 200.0,
             "loan_balance": 0.0
+        },
+        "01": {
+            "first_name": "Sam",
+            "last_name": "Walker",
+            "balance": 200.0,
+            "loan_balance": 0.0
         }
     },
     "employees": {}
