@@ -14,7 +14,7 @@ def get_db_connection(username, password, host, port, database):
                                              database='Sam')                                     
         print('successfully connected.')
         
-        # FIX: Automatically create the 'sales' table if it doesn't exist
+        # Automatically create the 'sales' table if it doesn't exist
         cursor = connection.cursor()
         create_table_query = """
         CREATE TABLE IF NOT EXISTS sales (
